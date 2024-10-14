@@ -24,7 +24,7 @@ const Navbar = () => {
 		<header className="bg-white fixed w-full text-black z-40 shadow p-4">
 			<nav className="flex justify-between items-center max-w-7xl mx-auto">
 				<ul className="hidden md:flex space-x-10">
-					{navItems?.slice(0, 3).map((item) => (
+					{navItems?.slice(0, 2).map((item) => (
 						<li key={item.href}>
 							<a
 								href={item.href}
@@ -46,7 +46,7 @@ const Navbar = () => {
 				/>
 				{/* Desktop Menu */}
 				<ul className="hidden md:flex space-x-10">
-					{navItems?.slice(3, 6).map((item) => (
+					{navItems?.slice(2, 5).map((item) => (
 						<li key={item.href}>
 							<a
 								href={item.href}
