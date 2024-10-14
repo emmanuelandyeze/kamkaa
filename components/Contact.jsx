@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ContactUsSection() {
 	return (
-		<section className="max-w-7xl mx-auto px-4 py-16">
+		<section className="max-w-7xl mx-auto px-4 pt-16">
 			<section className="flex flex-col justify-center items-center h-20 pt-10 pb-20">
 				<h2 className="font-playfair text-4xl md:text-5xl text-kamkaaGold font-semibold">
 					<span className="text-gray-800">Our </span>

@@ -12,12 +12,12 @@ const Navbar = () => {
 	};
 
 	const navItems = [
-		{ name: 'Home', href: '/' },
-		{ name: 'Hotels & Suites', href: '/hotels-and-suites' },
+		// { name: 'Home', href: '/' },
+		{ name: 'Hotels & Suites', href: '/' },
 		{ name: 'Shortlets', href: '/shortlets' },
 		{ name: 'About Us', href: '/about' },
 		{ name: 'Gallery', href: '/gallery' },
-		{ name: 'Contact', href: '/contact' },
+		{ name: 'Contact', href: '/contact' }, 
 	];
 
 	return (
