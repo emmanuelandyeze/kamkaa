@@ -1,26 +1,30 @@
 import React from 'react';
 
 const images = [
-	'/hotel/0S2A3270.jpg',
-	'/hotel/0S2A3254.jpg',
-	'/hotel/0S2A3351.jpg',
-	'/hotel/0S2A3321.jpg',
-	'/hotel/0S2A3258.jpg',
-	'/hotel/0S2A3390.jpg',
-	'/hotel/0S2A3517.jpg',
-	'/hotel/0S2A3529.jpg',
-	'/hotel/0S2A3558.jpg',
-	'/hotel/0S2A3548.jpg',
-	'/hotel/0S2A3270.jpg',
-	'/hotel/0S2A3656.jpg',
+	'/house/0S2A3037.jpg',
+	'/house/0S2A3081.jpg',
+	'/house/0S2A3098.jpg',
+	'/house/0S2A3097.jpg',
+	'/house/0S2A3120.jpg',
+	'/house/0S2A3126.jpg',
+	'/house/0S2A3131.jpg',
+	'/house/0S2A3170.jpg',
+	'/house/0S2A3177.jpg',
+	'/house/0S2A3191.jpg',
+	'/house/0S2A3198.jpg',
+	'/house/0S2A3235.jpg',
+	'/house/0S2A3238.jpg',
+	'/house/0S2A3185.jpg',
+	'/house/0S2A3086.jpg',
+	'/house/0S2A3051.jpg',
 ];
 
-export default function GallerySection() {
+export default function ShortletGallerySection() {
 	return (
-		<section className="max-w-7xl mx-auto px-4 py-4">
+		<section className="max-w-7xl mx-auto px-4 pt-4 pb-10">
 			<section className="flex flex-col justify-center items-center h-20 pt-10 pb-20">
 				<h2 className="font-playfair text-4xl md:text-5xl text-kamkaaGold font-semibold">
-					<span className="text-gray-50">Hotel </span>
+					<span className="text-gray-50">Shortlets </span>
 					Gallery
 				</h2>
 				{/* Decorative Lines */}
