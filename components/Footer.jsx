@@ -5,6 +5,7 @@ import {
 	FaInstagram,
 	FaLinkedinIn,
 } from 'react-icons/fa';
+import { BsTwitterX } from 'react-icons/bs';
 
 export default function Footer() {
 	return (
@@ -34,7 +35,7 @@ export default function Footer() {
 						rel="noopener noreferrer"
 						className="text-white hover:text-white transition duration-200"
 					>
-						<FaTwitter size={24} />
+						<BsTwitterX size={24} />
 					</a>
 					<a
 						href="https://www.instagram.com"
@@ -44,14 +45,14 @@ export default function Footer() {
 					>
 						<FaInstagram size={24} />
 					</a>
-					<a
+					{/* <a
 						href="https://www.linkedin.com"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-white hover:text-white transition duration-200"
 					>
 						<FaLinkedinIn size={24} />
-					</a>
+					</a> */}
 				</div>
 			</div>
 			<div className="text-center mt-4">
