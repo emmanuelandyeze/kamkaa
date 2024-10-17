@@ -24,18 +24,25 @@ export default function ContactUsSection() {
 					{/* <p className="font-poppins text-gray-700 mb-2">
 						<strong>Email:</strong> info@kamkaa.com
 					</p> */}
+					<strong>Phone</strong>
 					<p className="font-poppins text-gray-700 mb-2">
-						<strong>Phone:</strong> +234 915 266 5302
+						+234 915 266 5302
 					</p>
 					<p className="font-poppins text-gray-700 mb-2">
-						<strong>Address:</strong> 2, Oremeji Close,
-						Ojokoro, Off Bioyin St, Ifako-Ijaiye, Lagos
+						+234 816 815 4854
+					</p>
+					<p className="font-poppins text-gray-700 mb-2">
+						+234 802 303 5567
+					</p>
+					<strong>Address</strong>
+					<p className="font-poppins text-gray-700 mb-2">
+						2, Oremeji Close, Ojokoro, Off Bioyin St,
+						Ifako-Ijaiye, Lagos
 					</p>
 				</div>
 
 				{/* Map */}
 				<div className="w-full md:w-2/3 h-96">
-					
 					<iframe
 						src="https://www.openstreetmap.org/export/embed.html?bbox=3.285083770751953%2C6.675615433905576%2C3.295812606811524%2C6.683181204176674&amp;layer=mapnik&amp;marker=6.679399205929269%2C3.2904439999999795"
 						width="100%"
