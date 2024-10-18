@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function ShortletsAboutSection() {
@@ -40,12 +41,12 @@ export default function ShortletsAboutSection() {
 					guests. Book your shortlet today and discover the
 					best that Lagos has to offer!
 				</p> */}
-				<a
-					href="/booking"
-					className="inline-block bg-kamkaaGold text-white font-poppins rounded-full px-6 py-3 text-lg hover:bg-yellow-600 transition duration-200"
+				<Link
+					href={'https://wa.me/2349152665302'}
+					className="mt-4 px-6 py-3 bg-kamkaaGold text-black font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300"
 				>
 					Book Now
-				</a>
+				</Link>
 			</div>
 		</section>
 	);

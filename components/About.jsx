@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutSection() {
 	return (
 		<section className="max-w-7xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
@@ -45,9 +47,12 @@ export default function AboutSection() {
 					vacation, Kamkaa is your perfect getaway in the
 					bustling heart of Lagos.
 				</p> */}
-				<button className="mt-4 px-6 py-3 bg-kamkaaGold text-black font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300">
+				<Link
+					href={'https://wa.me/2349152665302'}
+					className="mt-4 px-6 py-3 bg-kamkaaGold text-black font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300"
+				>
 					Book Now
-				</button>
+				</Link>
 			</div>
 		</section>
 	);

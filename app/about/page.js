@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -49,9 +50,12 @@ const page = () => {
 						vacation, Kamkaa is your perfect getaway in the
 						bustling heart of Lagos.
 					</p>
-					<button className="mt-4 px-6 py-3 bg-kamkaaGold text-black font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300">
+					<Link
+						href={'https://wa.me/2349152665302'}
+						className="mt-4 px-6 py-3 bg-kamkaaGold text-black font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300"
+					>
 						Book Now
-					</button>
+					</Link>
 				</div>
 			</section>
 		</div>

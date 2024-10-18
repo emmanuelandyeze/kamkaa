@@ -29,14 +29,14 @@ export default function Footer() {
 					>
 						<FaFacebookF size={24} />
 					</a>
-					<a
+					{/* <a
 						href="https://www.twitter.com"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-white hover:text-white transition duration-200"
 					>
 						<BsTwitterX size={24} />
-					</a>
+					</a> */}
 					<a
 						href="https://www.instagram.com"
 						target="_blank"

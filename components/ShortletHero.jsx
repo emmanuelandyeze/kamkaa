@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 const images = [
@@ -51,11 +52,14 @@ export default function ShortletHero() {
 				</h1>
 				<p className="font-poppins text-lg md:text-2xl mt-4">
 					Discover affordable short-term rentals with all
-					the comforts of home. 
+					the comforts of home.
 				</p>
-				<button className="mt-6 px-6 py-3 bg-kamkaaGold text-black font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300">
+				<Link
+					href={'https://wa.me/2349152665302'}
+					className="mt-4 px-6 py-3 bg-kamkaaGold text-black font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300"
+				>
 					Book Now
-				</button>
+				</Link>
 			</div>
 		</section>
 	);
