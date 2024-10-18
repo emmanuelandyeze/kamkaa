@@ -34,6 +34,13 @@ export default function ContactUsSection() {
 					<p className="font-poppins text-gray-700 mb-2">
 						+234 802 303 5567
 					</p>
+					<strong>Email</strong>
+					<p className="font-poppins text-gray-700 mb-2">
+						service@kamkaa.com.ng
+					</p>
+					<p className="font-poppins text-gray-700 mb-2">
+						kamkaa2024@gmail.com
+					</p>
 					<strong>Address</strong>
 					<p className="font-poppins text-gray-700 mb-2">
 						2, Oremeji Close, Ojokoro, Off Bioyin St,
